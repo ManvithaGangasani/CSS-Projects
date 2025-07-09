@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Indian Flag</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        position: relative;
+    }
+
+    .flag {
+        width: 40%;
+        aspect-ratio: 3 / 1.8;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 10px gray;
+    }
+
+    .orange {
+        height: 33.33%;
+        background-color: #FF9933;
+    }
+
+    .white {
+        height: 33.33%;
+        position: relative;
+    }
+
+    .green {
+        height: 33.33%;
+        background-color: green;
+    }
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20%;
+        max-height: 100%;
+
+    }
+</style>
+
+<body>
+    <div class="flag">
+        <div class="orange"></div>
+        <div class="white">
+            <img src="images/flag circle.png">
+        </div>
+        <div class="green"></div>
+    </div>
+
+</body>
+
+</html>
