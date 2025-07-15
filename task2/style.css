@@ -58,7 +58,7 @@ footer {
     text-align: justify;
   }
 
-  img {
+  .tile-image{
     margin-bottom: 10px;
     width: 100%;
   }
